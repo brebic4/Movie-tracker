@@ -1,0 +1,24 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Grafovi</h1>
+<div>
+  <h2>Filmovi po žanru</h2>
+  <img
+    src="{{ url_for('static', filename='genre_graph.png') }}"
+    alt="Movies by Genre"
+  />
+</div>
+<div>
+  <h2>Filmovi po ocjeni</h2>
+  <img
+    src="{{ url_for('static', filename='rating_graph.png') }}"
+    alt="Movies by Rating"
+  />
+</div>
+<div>
+  <h2>Filmovi po godini izlaska</h2>
+  <img
+    src="{{ url_for('static', filename='year_graph.png') }}"
+    alt="Movies by Year"
+  />
+</div>
+{% endblock %}

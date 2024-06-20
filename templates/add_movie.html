@@ -1,0 +1,41 @@
+{% extends 'base.html' %} {% block content %}
+<h1>Dodaj film</h1>
+<form method="post">
+  <label for="title">Naslov</label>
+  <input type="text" name="title" id="title" required />
+  <label for="release_year">Godina izlaska</label>
+  <input
+    type="number"
+    name="release_year"
+    id="release_year"
+    min="1900"
+    required
+  />
+  <label for="genre">Žanr</label>
+  <select name="genre" id="genre">
+    <option value="Action">Akcijski</option>
+    <option value="Anime">Animirani</option>
+    <option value="Documentary">Dokumentarac</option>
+    <option value="Drama">Drama</option>
+    <option value="Horror">Horor</option>
+    <option value="Comedy">Komedija</option>
+    <option value="Crime">Krimi</option>
+    <option value="Romance">Romantični</option>
+    <option value="Sci-Fi">Sci-Fi</option>
+    <option value="Triller">Triler</option>
+  </select>
+  <label for="rating">Ocjena</label>
+  <input
+    type="number"
+    step="0.1"
+    name="rating"
+    id="rating"
+    min="1"
+    max="10"
+    required
+  />
+  <label for="watched">Da li je film pogledan?</label>
+  <input type="checkbox" name="watched" id="watched" />
+  <button type="submit">Dodaj novi film</button>
+</form>
+{% endblock %}
