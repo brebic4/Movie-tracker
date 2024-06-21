@@ -21,7 +21,8 @@ Implementira:
 
 ## Instalacija
 
-Potrebno je ući u terminal u Visual Studio Code-u te pratiti sljedeće naredbe:
+Potrebno je instalirati i otvoriti Docker Desktop https://www.docker.com/products/docker-desktop/
+Nakon toga, potrebno je ući u terminal u Visual Studio Code-u te pratiti sljedeće naredbe:
 
 Skidanje koda s GitHub-a:
 
