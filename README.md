@@ -4,7 +4,8 @@ Sustav za praćenje filmova na netu
 
 Jednostavna web aplikacija koja prati popis omiljenih filmova korisnika. Implementira mogućnost unosa, prikaza, brisanja i uređivanja omiljenih filmova. Također, kroz jednostavne grafove vizualizira filmove kroz različite filtere.
 
-Implementira:
+Značajke:
+
 -unos filma (naziv filma, godina izlaska, žanr, ocjena, status je li korisnik pogledao film ili ne).
 
 -Uredivanje stavki filma, te brisanje određenog filma.
@@ -22,6 +23,7 @@ Implementira:
 ## Instalacija
 
 Potrebno je instalirati i otvoriti Docker Desktop https://www.docker.com/products/docker-desktop/
+
 Nakon toga, potrebno je ući u terminal u Visual Studio Code-u te pratiti sljedeće naredbe:
 
 Skidanje koda s GitHub-a:
