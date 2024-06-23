@@ -30,7 +30,7 @@ Skidanje koda s GitHub-a:
 
     cd ~/Downloads
     git clone https://github.com/brebic4/Movie-tracker.git
-    cd Movie_tracker
+    cd Movie-tracker
 
 Docker tutorial:
 
